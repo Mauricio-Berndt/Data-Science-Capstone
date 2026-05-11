@@ -17,13 +17,24 @@ The order is:
 
 6.- Visual Analytics with Folium (CS_Folium): Generate maps for data analysis with different components, like markers in each launchsite, markerclusters to measure the success/failure rate in launches and some spatial measurements like the distance between a coastline and a launchsite, due to GitHub not showing Folium components here are some examples of what were somo of the resulting maps in this notebook
 
-<figure style="text-align: center;">
-  <img src="images/FOLIUM_1.png" width="500">
-  <figcaption>Map with markers on Launch Sites</figcaption>
-</figure>
+<p align="center">
+  <img src="images/FOLIUM_1.png" width="900">
+</p>
+<p align="center">
+  <img src="images/FOLIUM_6.png" width="900">
+</p>
 
+(For more images of this notebook´s results go to /images in this repo and see the one under the name 'FOLIUM_X') 
 
-7.-
+7.- Visual Analytics with Dash (CS_Dash): For this notebook the task is to generate a Dashboard using dash and Graph Objects components along with Express(xp) to see in a pie chart and scatter plot the change between launch sites for the sucess rate and the type of booster with its outcome given a payload mass, all done with a callback decorator for the user to input various parameters like the payload mass, the launch site or all launchsites for the analysis and see the Dash App updating the info, given the fact that Github does not show dash apps here are some results of the notebook
 
-8.-
+<p align="center">
+  <img src="images/DASH_1.png" width="900">
+</p>
+<p align="center">
+  <img src="images/DASH_2.png" width="900">
+</p>
 
+(For more images of this notebook´s results go to /images in this repo and see the one under the name 'DASH  _X')
+
+8.- Machine Learnign Predictions (CS_ML_Predict): This notebook is one of the most important steps, here is the actual implementation of 4 different Machine Learning algorithms to compare between each other, the goal is to predict the outcome of future launches and select which is the best algorithm for prediction comparing scores, to compare them the data was put into the test_train_split process to avoid data leakage, and firt train the data for each ML method, and then see its result on the test data, the 4 methos compares were a SVM (Support Vector Machine), KNN (K Nearest Neighbors), Logstic Regression and a Decision Tree, for the notebook the confusion matrix for each methos was obtaines in order to have a visual resource to see the results for each ML Method.
