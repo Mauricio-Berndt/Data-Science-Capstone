@@ -2,7 +2,7 @@
 Repository containign different stages of the Data Science Captone from Coursera
 
 The goal is to generate a capstone project to predict wether SpaceX will attempt to land a rocket and its outcome, this capstone must be a Data Science end-to-end project that includes content from all the courses of the Data Science IBM Profesional Certificate in Coursera
-Its conformed by 8 Jupyter Notebooks each with its own Tasks and following the process from the previous one
+Its conformed by 8 Jupyter Notebooks each with its own Tasks and following the process from the previous one\
 The order is:
 
 1.- Data Collection (CS_DataColl_API): Use the SpaceX REST API to get data about launches like launch specs, land specs, outcome, booster, etc.
