@@ -17,10 +17,11 @@ The order is:
 
 6.- Visual Analytics with Folium (CS_Folium): Generate maps for data analysis with different components, like markers in each launchsite, markerclusters to measure the success/failure rate in launches and some spatial measurements like the distance between a coastline and a launchsite, due to GitHub not showing Folium components here are some examples of what were somo of the resulting maps in this notebook
 
-<p align = 'center'>
+<figure style="text-align: center;">
   <img src="images/FOLIUM_1.png" width="500">
   <figcaption>Map with markers on Launch Sites</figcaption>
-</p>
+</figure>
+
 
 7.-
 
